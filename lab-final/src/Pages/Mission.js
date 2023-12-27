@@ -14,7 +14,6 @@ const Mission = () => {
         <div className="container">
           <h1>Dragon Space Mission App</h1>
           <div className="mission-card">
-
           <MissionList />
           </div>
         </div>
