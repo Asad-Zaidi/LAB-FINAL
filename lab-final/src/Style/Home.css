@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+
+body {
+    background-color: #f6ebdf;
+    align-items: center;
+    font-family: 'Nunito', sans-serif;
+}
+
+.home-container {
+    height: auto;
+    width: 85vw;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 1.5;
+    font-size: 1.2em;
+}
+
+.subtitle {
+    letter-spacing: 2px;
+}
+
+.home-container ul {
+    padding: 1em;
+    color: #ff9500;
+    font-style: italic;
+}
+
+.description {
+    padding: 1em 0 2em 0;
+}
+
+.external-links {
+    display: flex;
+}
+
+.external-links a {
+    display: flex;
+    align-items: center;
+    gap: 0.5em;
+    margin-right: 2em;
+    font-size: 0.7em;
+    border-radius: 10px;
+    padding: 1.125em 1.56em;
+    font-weight: 600;
+    letter-spacing: 2px;
+    color: #3c3e41;
+    background: linear-gradient(140deg, #dae5ebdb, #fff);
+    box-shadow: 4px 4px 10px #c1c1c1, -4px -4px 10px #fff;
+}
+
+.external-links a:hover {
+    cursor: pointer;
+    color: #fff;
+    background: #f94892;
+    transition: all 0.5s ease-in;
+}
+
+.home-img>img {
+    width: 22em;
+    align-self: center;
+}
+
+.MathGif {
+    width: 50em;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.MathGif img {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
