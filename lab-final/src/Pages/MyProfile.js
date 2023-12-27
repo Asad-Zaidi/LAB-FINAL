@@ -1,5 +1,6 @@
 import React from 'react'
 import Head from '../Nav-Bar/Header'
+import '../App.css'
 
 const MyProfile = () => {
     return (
